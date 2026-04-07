@@ -54,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            _Button(),
           ],
         ),
       ),
@@ -69,7 +70,6 @@ class _MyHomePageState extends State<MyHomePage> {
 class _Button extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    ElevatedButton(onPressed: null, child: null,);
-    throw UnimplementedError();
+    return ElevatedButton(onPressed: null, child: null,);
   }
 }
