@@ -65,3 +65,11 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+class _Button extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    ElevatedButton(onPressed: null, child: null,);
+    throw UnimplementedError();
+  }
+}
