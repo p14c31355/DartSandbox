@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: .fromSeed(seedColor: Colors.blue),
       ),
-      home: const MyHomePage(title: 'Flutter Demo'),
+      home: const MyHomePage(title: ''),
     );
   }
 }
@@ -70,6 +70,6 @@ class _MyHomePageState extends State<MyHomePage> {
 class _Button extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(onPressed: null, child: null,);
+    return ElevatedButton(onPressed: null, child: Text('flutter'),);
   }
 }
