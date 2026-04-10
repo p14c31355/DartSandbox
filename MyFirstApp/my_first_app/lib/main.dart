@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_first_app/list_table_grid.dart';
 
 void main() {
   runApp(const MyApp());
@@ -56,6 +57,7 @@ class _MyHomePageState extends State<MyHomePage> {
               style: Theme.of(context).textTheme.headlineMedium,
             ),
             _Button(),
+            Expanded(child: ListTableGrid()),
           ],
         ),
       ),
