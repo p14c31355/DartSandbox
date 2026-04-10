@@ -15,7 +15,7 @@ class _ListTableState extends State<ListTableGrid> {
         shrinkWrap: true,
         physics: const NeverScrollableScrollPhysics(),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 2,
+          crossAxisCount: 10,
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
         ),
