@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
 class ListTableGrid extends StatefulWidget {
+  const ListTableGrid({super.key});
+
   @override
+  // ignore: library_private_types_in_public_api
   _ListTableState createState() => _ListTableState();
 }
 
